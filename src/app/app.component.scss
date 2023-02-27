@@ -1,0 +1,71 @@
+#container {
+  display : flex;
+  justify-content: center;
+}
+#toolbar{
+  margin: 5px 0px;
+  border-style: solid;
+  border-width: 5px;
+  background-color: white;
+}
+#join_btn{
+  margin: 0- auto;
+}
+input{
+  margin: 7px;
+  height: 35px;
+  border-radius: 10px;
+  padding-left: 20px;
+}
+#send_btn{
+  width: 50px;
+  height: 35px;
+  margin-left: 8px;
+}
+#chatbox{
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0px;
+  border-style: solid;
+  border-width: 1px;
+  background-color: white;
+  width: 73.7%;
+}
+#container_msg{
+  margin: 10px 0px;
+  display: flex;
+  flex-direction: column;
+}
+#user{
+  margin-left: 5px;
+  font-size: 15px;
+}
+#message{
+  width: 100%;
+  font-weight: 400;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: bisque;
+  width: fit-content;
+}
+#right_msg{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 100%;
+}
+#my_msg{
+  background-color: aqua;
+}
+#my_username{
+  margin-right: 10px;
+}
+#from_me{
+  justify-content: flex-end;
+}
+#from_other{
+  justify-content: flex-start;
+}
+#from_me,#from_other{
+  word-break: break-all;
+}
